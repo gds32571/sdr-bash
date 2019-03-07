@@ -7,4 +7,5 @@ rtl.sh
 rtl2.sh
    runs the rtl_433 program in JSON output mode, assigns MQTT topics to the messages, and publishes them with the Paho client software.
    It uses a watchdog system on this network to signal it is up and running. A program called socket1.py does this function.  Remove
-   it (comment out) from the file if you don't use my deadman system (You probably don't!).   
+   it (comment out) from the file if you don't use my deadman system (You probably don't!). 
+   See https://github.com/gds32571/deadman-watchdog for more information on that software. 
